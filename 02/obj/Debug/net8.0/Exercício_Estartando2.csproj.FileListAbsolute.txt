@@ -1,0 +1,14 @@
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\bin\Debug\net8.0\Exercício_Estartando2.exe
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\bin\Debug\net8.0\Exercício_Estartando2.deps.json
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\bin\Debug\net8.0\Exercício_Estartando2.runtimeconfig.json
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\bin\Debug\net8.0\Exercício_Estartando2.dll
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\bin\Debug\net8.0\Exercício_Estartando2.pdb
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.dll
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\refint\Exercício_Estartando2.dll
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.pdb
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\Exercício_Estartando2.genruntimeconfig.cache
+C:\Users\Adria\OneDrive\Desktop\Exercício_Estartando\Exercício_Estartando2\obj\Debug\net8.0\ref\Exercício_Estartando2.dll
