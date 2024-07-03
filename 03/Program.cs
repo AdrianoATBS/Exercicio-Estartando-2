@@ -12,7 +12,7 @@ internal class Program
 
             Console.WriteLine("Fale um número: ");
             int B = int.Parse(Console.ReadLine());
-
+            
             
         }
     }
