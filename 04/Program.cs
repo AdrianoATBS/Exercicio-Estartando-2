@@ -106,42 +106,273 @@
 
 // Exercício 31-----------------------------------------------
 
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {      
+//        int numero;
+//        int par = 0;
+//        int impar = 0;
+
+//         Console.WriteLine("Digite um número positivo(+) ou um número negativo(-) para sair");
+        
+//         while(true)
+//         {   
+//             try
+//             {
+//             numero = int.Parse(Console.ReadLine());
+
+//             if(numero < 0)
+//             {
+//                 Console.WriteLine("Você encerrou o código");
+//                 break;
+//             }
+//             else if(numero % 2 == 0)
+//             {
+//                 Console.WriteLine($"O {numero} é par");
+//                 par = par + numero;
+                
+//             }
+//             else
+//             {
+//                 Console.WriteLine($"O {numero} é impar");
+//                 impar = impar + numero;
+               
+//             }
+//             }
+//             catch(Exception exception)
+//             {
+//                 Console.WriteLine($"Ocorreu um erro: {exception.Message}");
+//                 //Console.WriteLine($"{exception.StackTrace}");
+//                 Console.WriteLine("Informe um número válido!");
+//             }
+//         }
+//         Console.WriteLine($"A soma dos números pares é {par}");
+
+//         Console.WriteLine($"A soma dos números impares é {impar} ");
+           
+//     }
+
+// }
+
+// Exercício 32-----------------------------------------------
+
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         while (true)
+//         {
+//             int numero;
+
+//             do
+//             {
+//                 Console.WriteLine("Digite um número maior que 0 e menor que 10: ");
+//                 numero = int.Parse(Console.ReadLine());
+//             }while(numero <= 0 || numero >= 10);
+
+//             int soma = 0;
+//             int contador = 0;
+
+//             if (numero % 2 == 0)
+//             {
+//                 numero = numero + 1;
+//             }
+
+//             for (int i =0; i < 20;i++)
+//             {
+//                 soma = soma + numero * numero;
+//                 numero = + numero + 2;
+//             }
+            
+//             Console.WriteLine($"A soma dos quadrados dos 20 primeiros números impares é {soma}");
+
+//             Console.WriteLine("Deseja realizar outro cálculo ? (S/N)");
+//             string resposta = Console.ReadLine().ToUpper();
+//             if( resposta == "N")
+//             {
+//                 Console.WriteLine("Código encerrado!!");
+//                 break;
+//             }
+//         }
+//     }
+// }
+
+// Exercício 33-----------------------------------------------
+
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         int quantidadeAlunos = 0;
+//         double notas = 0;
+
+//         while (true)
+//         {
+//             // Solicita o número de matrícula do aluno
+//             Console.WriteLine("Digite o número de matrícula do aluno (com no máximo 8 dígitos) ou 'sair' para finalizar:");
+//             string entrada = Console.ReadLine();
+
+//             if (entrada.ToLower() == "sair")
+//                 break;
+
+//             if (entrada.Length > 8 || !int.TryParse(entrada, out int matricula))
+//             {
+//                 Console.WriteLine("Número de matrícula inválido. Tente novamente.");
+//                 continue;
+//             }
+
+//             // Solicita a nota do aluno
+//             Console.WriteLine("Digite a nota do aluno (0 a 10):");
+//             string entradaNota = Console.ReadLine();
+
+//             if (!double.TryParse(entradaNota, out double novaNota) || novaNota < 0 || novaNota > 10)
+//             {
+//                 Console.WriteLine("Nota inválida. Tente novamente.");
+//                 continue;
+//             }
+
+//             quantidadeAlunos++;
+//             notas += novaNota;
+//         }
+
+//         if (quantidadeAlunos > 0)
+//         {
+//             double media = notas / quantidadeAlunos;
+//             Console.WriteLine($"A média das notas dos {quantidadeAlunos} alunos é: {media:F2}");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Nenhuma nota foi registrada.");
+//         }
+//     }
+// }
+
+// Exercício 34-----------------------------------------------
+
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {   
+        
+
+//         int menor = int.MaxValue;
+//         int maior = int.MinValue;
+
+//         Console.WriteLine("Digite um numero positivo para continuar ou um número negativo para sair");
+//         while (true)
+//         {
+//             string entrada = Console.ReadLine();
+//             if (!int.TryParse(entrada, out int numero))
+//             {
+//                 Console.WriteLine("Entrada inválida.");
+//                 continue;
+//             }
+//             if( numero < 0)
+//             {
+//                 Console.WriteLine("Código Encerrado");
+//                 break;
+//             }
+//             if (numero < menor)
+//             {
+//                 menor = numero;
+//             }
+//             if( numero > maior)
+//             {
+//                 maior = numero;
+                
+//             }
+//             if (menor == int.MaxValue && maior == int.MinValue)
+//             {
+//                 Console.WriteLine("Nenhum npumero foi registrado.");
+//             } 
+//             else
+//             {
+//                 Console.WriteLine($"O menor número é: {menor}");
+//                 Console.WriteLine($"O maior numero é: {maior}");
+//             }
+
+
+//         }
+
+//     }
+// }
+
+// Exercício 34.2---------------------------------------------
+
+
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {   
+//         Console.WriteLine("Digite quantas vezes o código deve ser repetido ");
+//         if(!int.TryParse(Console.ReadLine(), out int repetir )|| repetir <= 0 )
+//         {
+//             Console.WriteLine("Número Inválido.");
+//             return;
+//         }
+
+//         int menor = int.MaxValue;
+//         int maior = int.MinValue;
+
+//         for (int i = 0; i < repetir; i++)
+//         {   
+//             Console.WriteLine("Digite um numero positivo para continuar ou um número negativo para sair");
+
+//             if (!int.TryParse(Console.ReadLine(), out int numero) || numero < 0 )
+//             {
+//                 Console.WriteLine("Entrada inválida.");
+//                 i--;
+//                 continue;
+//             }
+//             if( numero < 0)
+//             {
+//                 Console.WriteLine("Código Encerrado");
+//                 break;
+//             }
+//             if (numero < menor)
+//             {
+//                 menor = numero;
+//             }
+//             if( numero > maior)
+//             {
+//                 maior = numero;
+                
+//             }
+//             if (menor == int.MaxValue && maior == int.MinValue)
+//             {
+//                 Console.WriteLine("Nenhum npumero foi registrado.");
+//             } 
+//             else
+//             {
+//                 Console.WriteLine($"O menor número é: {menor}");
+//                 Console.WriteLine($"O maior numero é: {maior}");
+//             }
+
+
+//         }
+
+//     }
+// }
+
+// Exercício 35-----------------------------------------------
+
 using System;
 
 class Program
 {
     static void Main()
-    {      
-       int par = 0;
-       int impar = 0;
-
-       Console.WriteLine("Digite a quantidade de números: ");
-       int quantidade = int.Parse(Console.ReadLine());
-
-       for(int i =0; i < quantidade; i++)
-       {
-            Console.WriteLine($"Digite um número {i + 1}: ");
-            int numero = int.Parse(Console.ReadLine());
-
-                if (numero < 0)
-                    Console.WriteLine("Número negativo. Digite números Positivo");
-                    break;
-
-                if ( numero % 2 == 0)
-                {
-                    Console.WriteLine($"O número {numero} é par");
-                    par += numero;
-                    
-                }
-                else
-                {
-                    Console.WriteLine($"O número {numero} é impar");
-                    impar += numero;
-                }  
-       }
-       Console.WriteLine($"A soma é dos números pares é {par}");
-        Console.WriteLine($"A soma é dos números impares é {impar}");
-        Console.WriteLine("Código Encerrado!");
-       
+    {   
+    
     }
 }
