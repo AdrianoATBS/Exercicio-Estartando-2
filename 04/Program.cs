@@ -306,7 +306,7 @@
 //     }
 // }
 
-// Exercício 34.2---------------------------------------------
+// Exercício 34.2--------------------------------------------
 
 
 // using System;
@@ -367,12 +367,86 @@
 
 // Exercício 35-----------------------------------------------
 
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {   
+
+//        for(int i = 1; i <= 100; i++)
+//        {
+        
+//          if(i % 10 == 0 )
+//          {
+//             Console.WriteLine($"{i} = Múltiplo de 10 "); 
+//          }
+//          else{
+//             Console.WriteLine(i);
+//          }
+//        }
+//     }
+// }
+
+// Exercício 36-----------------------------------------------
+
+// using System;
+// using System.Threading;
+
+// class Program
+// {
+//     static void Main()
+//     {  
+//        int menor = int.MaxValue;
+//        int maior = int.MinValue;
+//        int soma = 0;
+//        int adicionar = 0;
+//        int[] values = new int[10];
+//        Random random = new Random();
+
+//        Console.WriteLine("Pressione Enter para gerar 10 números aleatórios");
+//        Console.ReadLine();
+
+//        while (adicionar < 10)
+//        {
+//         int numero = random.Next(1, 101);
+//         values[adicionar] = numero;
+//         Console.WriteLine($"Número gerado: {numero}");
+        
+//         if(numero < menor)
+//         {
+//             menor = numero;
+//         }
+//         if (numero > maior)
+//         {
+//             maior = numero;
+//         }
+//         soma = soma + numero;
+//         adicionar++;
+//        } 
+//         double media = (double)soma / 10;
+//         Thread.Sleep(2000);
+//         Console.WriteLine("\nResultados:");
+//         Console.WriteLine("Maior valor: " + maior);
+//         Console.WriteLine("Menor valor: " + menor);
+//         Console.WriteLine("Média: " + media);
+
+//         Console.WriteLine("Pressione Enter para sair...");
+//         Console.ReadLine();
+
+
+//     }
+// }
+
+// Exercício 36-----------------------------------------------
+
 using System;
+
 
 class Program
 {
     static void Main()
-    {   
-    
+    {
+       
     }
 }
