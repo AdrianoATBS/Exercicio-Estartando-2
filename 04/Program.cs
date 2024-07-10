@@ -439,14 +439,3 @@
 // }
 
 // Exercício 36-----------------------------------------------
-
-using System;
-
-
-class Program
-{
-    static void Main()
-    {
-       
-    }
-}
