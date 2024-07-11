@@ -1,0 +1,15 @@
+/*
+2 - Crie uma classe RegistroDeCompras com atributos para registrar informações de
+compras (data, produto, valor). Implemente um construtor e métodos para adicionar e
+listar compras.
+*/
+
+using System;
+using System.Globalization;
+
+public class RegistroDeCompras
+{
+
+  
+
+}
