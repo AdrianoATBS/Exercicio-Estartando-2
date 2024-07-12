@@ -5,11 +5,45 @@ listar compras.
 */
 
 using System;
-using System.Globalization;
 
-public class RegistroDeCompras
+class RegistroDeCompras
 {
 
-  
+    public string Produto{ get; set; }
+
+    public double Valor { get; set; }
+
+    public DateTime Data{ get; set; }
+
+    public int Validade{ get; set; }
+
+    
+    public RegistroDeCompras(string produto, double valor, DateTime data, int validade)
+    {
+       
+        Produto = produto;
+        Valor = valor;
+        Data = data;
+        Validade = validade;
+    }
+    public string VerificarValidade()
+    {
+        DateTime validadeData = Data.AddDays(Validade);
+        TimeSpan diferenca = validadeData - DateTime.Now;
+
+        if(diferenca.TotalDays >= 0)
+        {
+            return $"Válido - Falta {diferenca.Days} Dias para passar dar validade";
+        }
+        else
+        {
+            return $"Passou da validade {Math.Abs(diferenca.Days)}  dias atrás";
+        }
+    }
+
+    public void MostrarDetalhes()
+    {
+        Console.WriteLine($"Produto: {Produto}, Valor: {Valor:C}, Data: {Data:dd/MM/yyyy}");
+    }
 
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj": {}
+    "C:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj",
         "projectName": "01",
-        "projectPath": "C:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj",
-        "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Adria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
