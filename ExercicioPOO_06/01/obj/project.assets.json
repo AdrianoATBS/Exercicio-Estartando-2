@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
+    "C:\\Users\\Adria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj",
+      "projectUniqueName": "c:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj",
       "projectName": "01",
-      "projectPath": "c:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\01.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Pichau\\Desktop\\Exercício_Estartando\\Exercicio-Estartando-2\\ExercicioPOO_06\\01\\obj\\",
+      "projectPath": "c:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\01.csproj",
+      "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Adria\\OneDrive\\Desktop\\Exercício_Estartando\\Exercício_Estartando2\\ExercicioPOO_06\\01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Adria\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
